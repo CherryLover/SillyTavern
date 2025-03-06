@@ -6,9 +6,9 @@ on:
   release:
     # Allow pre-releases
     types: [published]
-  schedule:
+  # schedule:
     # Build the staging image everyday at 00:00 UTC
-    - cron: "0 0 * * *"
+    # - cron: "0 0 * * *"
   push:
     # Temporary workaround
     branches:
